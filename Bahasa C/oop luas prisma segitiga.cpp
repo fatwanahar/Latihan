@@ -19,7 +19,7 @@
     }
     void hitungSegitiga(int *m,int a,int t){
         struct prisma prisma1;
-        *m=(a*t)/2;
+        *m = (a*t)/2;
         return;
     }
 
