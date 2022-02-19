@@ -26,7 +26,7 @@ main(){
     LuasAlas(&la,at,aa);
     //printf("%i",la);
     Volume(&v,la,t);
-    printf("%i",v);
+    printf("Volume prisma segitiga adalah: %i",v);
 }
 
 
