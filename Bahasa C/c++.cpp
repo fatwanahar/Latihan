@@ -19,6 +19,5 @@ int main() {
     cout << "Halo " << nama << "\n";
     cout << "jumlah karakter dalam namamu ada: " << nama.size();
     return 0;
-
 }
 
