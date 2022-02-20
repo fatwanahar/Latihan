@@ -15,9 +15,10 @@ int main() {
     cout << "halo apa kabar kalian semua!" << endl;
     cout << "Halo juga apa kabar!" << endl;*/
     cout << "masukkan namamu: ";
-    cin >> nama;
+    getline(cin,nama);
     cout << "Halo " << nama << "\n";
     cout << "jumlah karakter dalam namamu ada: " << nama.size();
     return 0;
+
 }
 
