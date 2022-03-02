@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/white-technology-background_23-2148403783.jpg?size=626&ext=jpg");
+}
+.top {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 20px;
+    color:#1C658C;
+    margin-bottom: 40px;
+}
+.kolom{
+    display: flex;
+}
+.kolom img{
+    width: 50%;
+    border-radius: 1000px;
+}
+.nama{
+    text-align: center;
+    color:#398AB9;
+    font-family: "comic sans ms";
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.kolom .deskripsi{
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color:#ec9026 ;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.desc{
+    margin-top: 50px;
+}
