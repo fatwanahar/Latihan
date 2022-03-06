@@ -1,2 +1,2 @@
-#C/c++ (programming language)
+# C/c++ (programming language)
 *berisi program latihan dengan menggunakan bahasa C/C++
