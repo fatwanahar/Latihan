@@ -1,3 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/close-up-white-marble-texture-background_53876-63512.jpg?w=740");
+}
+.container{
+    padding-top: 10px;
+    width: 1000px;
+    margin: auto;
+}
 .textwrap img{
-    width:400px;
+    width: 50%;
+    float: left;
+    margin:10px;
+}
+.textwrap p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;}
+.imgshow{
+    margin-top: 10px;
+}
+.imgshow img{
+    float:left;
+    width: 20%;
+}
+.multikolom{
+    float: left;
+    margin-top: 10px;
+}
+.multikolom .kanan{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.multikolom .kiri{
+    width: 250px;
+    height: 100px;
+    background-color: greenyellow;
+    float: left;
+}
+.multikolom .tengah1{
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+.multikolom .tengah2{
+    width: 250px;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
 }
