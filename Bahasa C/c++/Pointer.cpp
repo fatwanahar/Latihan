@@ -6,5 +6,8 @@ int main() {
     string *ptr=&food;
     cout << &food << "\n";
     cout << ptr << endl;
-    cout << *ptr;
+    cout << *ptr << "\n";
+    *ptr = "Meatball";
+    cout << *ptr << "\n";
+    cout << food << "\n";
 }
