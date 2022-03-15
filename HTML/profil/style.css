@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    background-color: #dbe5f0;
+}
+.container{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    width: 1200px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.container .header{
+    width: 100%;
+    display: block;
+}
+.header h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+}
+.header .judul{
+    padding: 20px;
+}
+.nav{
+    background-color: #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: lightblue;
+    color: white;
+}
+main{
+    width: 100%;
+}
+.main img{
+    width: 1200px;
+}
+.selamat{
+    width: 100%;
+    height: 270px;
+}
+.selamat h1{
+    font-size: 70px;
+}
+.selamat .kata{
+    margin: 100px auto;
+    width: 700px;
+    text-align: center;
+}
+.t2{
+    background-color: #f4f4f4;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.t2 .bio{
+    width: 50%;
+}
+.bio h1{
+    margin-bottom: 40px;
+}
+.bio .biobox{
+    width: 70%;
+    margin: 100px auto;
+}
+.t2 img{
+    width: 50%;
+}
+.footer{
+    padding: 20px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer .copyright{
+    margin-top: 20px;
+    text-align: center;
+}
+.t3{
+    background-color: #e8e8e8;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.t3 img{
+    width: 50%;
+}
+.t3 .acabio{
+    width: 50%;
+}
+.t3 .judul {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.t3 h1{
+    margin-top: 100px;
+}
+.t3 .isi{
+    text-align: center;
+}
+.t3 .isi dt{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+.t3 .isi dd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.t4{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.t4 .isi{
+    margin-top: 200px;
+}
+.t4 h2{
+    font-size: 30px;
+}
+.t5{
+    padding-top: 30px;
+    background-color: #e8e8e8;
+    height: 300px;
+    box-sizing: border-box;
+}
+.t5 .isicontact{
+    text-align: center;
+}
+.isicontact h2{
+    font-size: 40px;
+}
