@@ -1,8 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "java/05 - Fungsi/src",
         "java/04 - Loop/src",
-        "java/03 - if else/src",
-        "java/02 - user input + perhitungan aritmatik/src",
-        "java/05 - Fungsi/src"
+        "java/03 - if else/src"
     ]
 }
