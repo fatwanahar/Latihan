@@ -10,14 +10,14 @@ class pelanggan{
     	cout << "---------------SELAMAT DATANG DI RESTORAN PADANGSUBUR--------------" << endl;
         cout << "masukkan nama: ";
         gets(nama);
-        cout << "SELAMAT DATANG DI WARUNG KAMI " << nama <<endl;
+        cout << "\t\t|SELAMAT DATANG DI WARUNG KAMI " << nama <<"|" << endl;
     }
 };
 
 class pembayaran:public pelanggan{
-    public:
+	public:
     int total,bayar,kembalian;
-
+	
     pembayaran(int total_){
         this->total=total_;
     }
@@ -30,7 +30,9 @@ class pembayaran:public pelanggan{
             cin >> bayar;
             kembalian = bayar-total;
             if (bayar<total){
-                cout << "Maaf uang anda tidak cukup silahkan masukkan lagi"<< endl;
+            	cout << "Maaf uang anda tidak cukup silahkan masukkan lagi"<< endl;
+            	system("PAUSE");
+                system("cls");
             }
             else{
                 cout << "Uang anda Rp." << bayar << " Kembalian sebesar Rp." << kembalian << endl;
