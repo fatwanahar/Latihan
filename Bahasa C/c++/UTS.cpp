@@ -36,7 +36,7 @@ class pembayaran:public pelanggan{
             }
             else{
                 cout << "Uang anda Rp." << bayar << " Kembalian sebesar Rp." << kembalian << endl;
-                cout << "\n\n-------------------TERIMA KASIH-------------------\n\n";
+                cout << "\n-------------------TERIMA KASIH-------------------\n\n";
             }
         } while (bayar<total);
     }
