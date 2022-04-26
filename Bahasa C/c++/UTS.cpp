@@ -46,7 +46,6 @@ class menu{
     public:
     int harga,pilih,jumlah;
 
-
     void tampil(){
         cout<<"|--------------------------------MENU--------------------------------|\n\n";
         cout<<"\t\t(1)  Ayam Geprek                     Rp.12000\n";
@@ -131,7 +130,3 @@ int main(){
     pembayaran bayar = pembayaran(total);
     bayar.tampil();
 }
-
-
-
-
